@@ -8,6 +8,7 @@
 | `nano /etc/fstab`  |  Edit mountings to partitions  |
 | `mount -a`  |  Mount filesystems (without restart) |
 | `df -P /srv | tail -1 | cut -d' ' -f 1`|  Find out which partition/mount a directory or file is on|
+| `cp -R -L -i <<src path>> <<target path>>` | Hardcopy von Files
 
 ## Processes
 
@@ -15,8 +16,12 @@
 |---|---|
 | `lsof -i:<<Port>>`| Show all processes which are listening on a specific port|
 | `kill -9 <<PID>>`  | Kill a process with a specified PID |
+| `service --status-all`| List all services |
+| `systemctl start <<your service>>` | Stop a service |
 
+## Let's encrypt (3rd Party)
 
-
-
+| Command  |  Description |
+|---|---|
+| `certbot certonly --standalone --preferred-challenges http -d <<domain>>`| Create certificate |
 
