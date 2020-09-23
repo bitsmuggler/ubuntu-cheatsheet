@@ -7,7 +7,7 @@
 | `sudo chown $USER /path/to/file`  | Change the user and/or group ownership of a given file, directory, or symbolic link. |
 | `nano /etc/fstab`  |  Edit mountings to partitions  |
 | `mount -a`  |  Mount filesystems (without restart) |
-| `df -P /srv &#124; tail -1 &#124; cut -d' ' -f 1` |  Find out which partition/mount a directory or file is on|
+| <code>df -P /srv | tail -1 | cut -d' ' -f 1</code> |  Find out which partition/mount a directory or file is on|
 | `cp -R -L -i <<src path>> <<target path>>` | Hardcopy von Files
 
 ## Processes
