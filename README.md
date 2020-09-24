@@ -19,7 +19,7 @@
 | `lsof -i:<<Port>>`| Show all processes which are listening on a specific port|
 | `kill -9 <<PID>>`  | Kill a process with a specified PID |
 | `service --status-all`| List all services |
-| `systemctl start <<your service>>` | Stop a service |
+| `systemctl stop <<your service>>` | Stop a service |
 
 ## Let's encrypt (3rd Party)
 
