@@ -9,6 +9,8 @@
 | `mount -a`  |  Mount filesystems (without restart) |
 | `df -P /srv \| tail -1 \| cut -d' ' -f 1` |  Find out which partition/mount a directory or file is on|
 | `cp -R -L -i <<src path>> <<target path>>` | Hardcopy von Files
+| `tar -C /myfolder -xvf yourfile.tar`| Extracting a tar in a specific folder
+| `tar -xvf yourfile.tar`| Extract tar in the current folder
 
 ## Processes
 
