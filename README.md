@@ -1,5 +1,12 @@
 # Ubuntu Cheatsheet
 
+## Filesystem
+
+| Command  |  Description |
+|---|---|
+| `lsblk -o NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL`  | It shows: <br> * the name of the drive and the partitions it has <br> * the type of file system <br> * the size the whole drive has and the size each partition has <br> * the mount point and if available, the label for them. |
+
+
 ## Files & Folders
 
 | Command  |  Description |
