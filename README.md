@@ -9,6 +9,7 @@
 | `mount -a`  |  Mount filesystems (without restart) |
 | `df -h`| hows available and used disk space on the Linux system |
 | `df -P /srv \| tail -1 \| cut -d' ' -f 1` |  Find out which partition/mount a directory or file is on|
+| `resize2fs <<filesystem>>`| Increase the file system to match the logical volume size (if using EXT4)
 
 ## Files & Folders
 
