@@ -5,15 +5,14 @@
 | Command  |  Description |
 |---|---|
 | `lsblk -o NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL`  | It shows: <br> * the name of the drive and the partitions it has <br> * the type of file system <br> * the size the whole drive has and the size each partition has <br> * the mount point and if available, the label for them. |
-
+| `nano /etc/fstab`  |  Edit file which manages mountings to partitions  |
+| `mount -a`  |  Mount filesystems (without restart) |
 
 ## Files & Folders
 
 | Command  |  Description |
 |---|---|
 | `sudo chown $USER /path/to/file`  | Change the user and/or group ownership of a given file, directory, or symbolic link. |
-| `nano /etc/fstab`  |  Edit file which manages mountings to partitions  |
-| `mount -a`  |  Mount filesystems (without restart) |
 | `df -P /srv \| tail -1 \| cut -d' ' -f 1` |  Find out which partition/mount a directory or file is on|
 | `cp -R -L -i <<src path>> <<target path>>` | Hardcopy von Files
 | `tar -C /myfolder -xvf yourfile.tar`| Extracting a tar in a specific folder
