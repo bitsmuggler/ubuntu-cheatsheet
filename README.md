@@ -28,6 +28,13 @@
 | `service --status-all`| List all services |
 | `systemctl stop <<your service>>` | Stop a service |
 
+## System
+
+| Command  |  Description |
+|---|---|
+| `shutdown -r 0`| Reboot ubuntu immediately|
+
+
 ## Let's encrypt (3rd Party)
 
 | Command  |  Description |
