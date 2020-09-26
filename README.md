@@ -30,7 +30,9 @@
 | `kill -9 <<PID>>`  | Kill a process with a specified PID |
 | `service --status-all`| List all services |
 | `systemctl stop <<your service>>` | Stop a service |
-| `<<your command>> &` | Running a command in the background |
+| `<<your command>> &` | Running a command as background job |
+| `jobs` | List background jobs |
+| `kill <<number>>` | Kill specific background job`
 | `ps \| grep <<your command or process name>>` | Find a specific running process |
 
 ## System
