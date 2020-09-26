@@ -19,6 +19,8 @@
 | `cp -R -L -i <<src path>> <<target path>>` | Hardcopy von Files
 | `tar -C /myfolder -xvf yourfile.tar`| Extracting a tar in a specific folder
 | `tar -xvf yourfile.tar`| Extract tar in the current folder
+| `chmod 777 <<folder>>`| Change folder & file permissions to full
+
 
 ## Processes
 
@@ -28,6 +30,8 @@
 | `kill -9 <<PID>>`  | Kill a process with a specified PID |
 | `service --status-all`| List all services |
 | `systemctl stop <<your service>>` | Stop a service |
+| `<<your command>> &` | Running a command in the background |
+| `ps | grep <<your command / process name>>` | Find a specific running process |
 
 ## System
 
