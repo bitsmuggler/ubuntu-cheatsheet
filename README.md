@@ -40,7 +40,7 @@
 | Command  |  Description |
 |---|---|
 | `shutdown -r 0`| Reboot ubuntu immediately|
-
+| `history` | Show the commands history in the shell
 
 ## Let's encrypt (3rd Party)
 
