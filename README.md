@@ -31,7 +31,7 @@
 | `service --status-all`| List all services |
 | `systemctl stop <<your service>>` | Stop a service |
 | `<<your command>> &` | Running a command in the background |
-| `ps | grep <<your command / process name>>` | Find a specific running process |
+| `ps \| grep <<your command or process name>>` | Find a specific running process |
 
 ## System
 
