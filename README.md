@@ -36,6 +36,13 @@
 | `kill <<number>>` | Kill specific background job`
 | `ps \| grep <<your command or process name>>` | Find a specific running process |
 
+## Packagemanagement
+
+| Command  |  Description |
+|---|---|
+| `apt-get remove <<package-name>>`| Remove a specific package|
+
+
 ## System
 
 | Command  |  Description |
