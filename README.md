@@ -48,3 +48,10 @@
 |---|---|
 | `certbot certonly --standalone --preferred-challenges http -d <<domain>>`| Create certificate |
 
+## Shortcuts
+
+| Shortcut  |  Description |
+|---|---|
+| `CTRL + R`| Will start search from most recent command to old one |
+
+
