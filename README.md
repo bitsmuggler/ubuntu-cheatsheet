@@ -50,6 +50,7 @@
 |---|---|
 | `shutdown -r 0`| Reboot ubuntu immediately|
 | `history` | Show the commands history in the shell
+|`getent passwd´| Get list of all users
 
 ## Let's encrypt (3rd Party)
 
