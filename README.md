@@ -19,7 +19,7 @@
 | `cp -R -L -i [src path] [target path]` | Hardcopy von Files
 | `tar -C /myfolder -xvf yourfile.tar`| Extracting a tar in a specific folder
 | `tar -xvf yourfile.tar`| Extract tar in the current folder
-| `chmod 777 [folder]`| Change folder & file permissions to full
+| `chmod -R 777 [folder]`| Change folder & file permissions to full
 | `ll or ls -l`| Get detail information about files and directories in present working directory
 
 
